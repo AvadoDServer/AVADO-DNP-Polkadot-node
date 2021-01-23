@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  polkadotnode.avado.dnp.dappnode.eth:
+    image: 'polkadotnode.avado.dnp.dappnode.eth:0.0.2'
+    build: ./build
+    environment:
+      - EXTRA_OPTS=--pruning=archive --validator
+    volumes:
+      - 'data:/polkadot'
+    ports:
+      - '30333:30333'
+      - '9933:9933'
+      - '9944:9944'
+volumes:
+  data: {}

@@ -1,0 +1,30 @@
+{
+  "name": "polkadotnode.avado.dnp.dappnode.eth",
+  "version": "0.0.2",
+  "upstream": "v0.8.27",
+  "title": "Polkadot archive node",
+  "description": "Polkadot Full Node - which can be used for DOT staking",
+  "avatar": "/ipfs/QmTQFGQkHzSN4AChg1ueq18vGh1SwFx7S9i6gwvVgKLFMQ",
+  "type": "service",
+  "autoupdate": true,
+  "image": {
+    "path": "polkadotnode.avado.dnp.dappnode.eth_0.0.2.tar.xz",
+    "hash": "/ipfs/QmcXv5ef4SuoG8Nqw5VtidjHMtBDkmY3hiRQVaWXJZXgpP",
+    "size": 74874488,
+    "restart": "always",
+    "environment": [
+      "EXTRA_OPTS=--pruning=archive --validator --rpc-cors=*"
+    ],
+    "ports": [],
+    "volumes": [
+      "data:/polkadot"
+    ]
+  },
+  "author": "AVADO",
+  "license": "(c)",
+  "dependencies": {},
+  "links": {
+    "Polkadot UI": "https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fpolkadotnode.avadopackage.com%2F#/explorer",
+    "RPC": "https://polkadotnode.avadopackage.com"
+  }
+}

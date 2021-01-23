@@ -1,0 +1,18 @@
+{
+  "0.0.1": {
+    "hash": "/ipfs/QmWYFjTC4aGuUCnwZVZD962hxGDmnR1YksGEtaGAPUdLsE",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Wed, 09 Dec 2020 23:17:25 GMT",
+      "dappnode": "Thu, 10 Dec 2020 11:36:41 GMT"
+    }
+  },
+  "0.0.2": {
+    "hash": "/ipfs/QmNfAnjTaZF3h1n9PShW8zZiCcmkNjcno1i7xip3EeWxu4",
+    "type": "manifest",
+    "uploadedTo": {
+      "http://80.208.229.228:5001": "Sat, 23 Jan 2021 12:31:56 GMT",
+      "dappnode": "Sat, 23 Jan 2021 14:06:06 GMT"
+    }
+  }
+}
